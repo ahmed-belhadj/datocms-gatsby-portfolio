@@ -64,10 +64,20 @@ const TemplateWrapper = ({ children }) => (
                 <Link to="/">Portfolio</Link>
               </li>
               <li>
-                <a href="https://ahmed-belhadj-blog.netlify.com/">Blog</a>
+                <a
+                  href="https://ahmed-belhadj-blog.netlify.com/"
+                  target="_blank"
+                >
+                  Blog
+                </a>
               </li>
               <li>
-                <a href="https://ahmed-belhadj-blog.netlify.com/">Resume</a>
+                <a
+                  href="https://ahmed-belhadj-blog.netlify.com/"
+                  target="_blank"
+                >
+                  Resume
+                </a>
               </li>
             </ul>
             <p className="sidebar__social">
