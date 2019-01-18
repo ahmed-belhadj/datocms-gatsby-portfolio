@@ -19,9 +19,9 @@ const IndexPage = ({ data }) => (
             <div className="card__description">
               <p>{work.excerpt}</p>
             </div>
+            <MorphIcon type="home"/>
+            <MorphIcon type="code"/>
           </figcaption>
-          <MorphIcon type="home"/>
-          <MorphIcon type="code"/>
         </figure>
       </div>
     ))}
