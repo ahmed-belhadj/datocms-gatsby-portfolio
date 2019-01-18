@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Masonry from 'react-masonry-component'
 import Img from 'gatsby-image'
+import { MorphIcon } from 'react-svg-buttons'
 
 const IndexPage = ({ data }) => (
   <Masonry className="showcase">
@@ -19,8 +20,8 @@ const IndexPage = ({ data }) => (
               <p>{work.excerpt}</p>
             </div>
           </figcaption>
-          <button>Test 1</button>
-          <button>Test 2</button>
+          <MorphIcon type="home"/>
+          <MorphIcon type="code"/>
         </figure>
       </div>
     ))}
