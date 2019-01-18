@@ -19,8 +19,8 @@ const IndexPage = ({ data }) => (
               <p>{work.excerpt}</p>
             </div>
           </figcaption>
-          <button/>
-          <button/>
+          <button>Test 1</button>
+          <button>Test 2</button>
         </figure>
       </div>
     ))}
