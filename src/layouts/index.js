@@ -14,7 +14,8 @@ const TemplateWrapper = ({ children, data }) => (
     <div className="container__sidebar">
       <div className="sidebar">
         <h6 className="sidebar__title">
-          <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
+          {/* <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link> */}
+          <a href="https://www.ahmedbelhadj.com/">{data.datoCmsSite.globalSeo.siteName}</a>
         </h6>
         <div
           className="sidebar__intro"
@@ -24,11 +25,30 @@ const TemplateWrapper = ({ children, data }) => (
         />
         <ul className="sidebar__menu">
           <li>
-            <Link to="/">Home</Link>
+            <a href="https://www.ahmedbelhadj.com/">Home</a>
           </li>
           <li>
             <Link to="/about">About</Link>
           </li>
+          <li>
+            <Link to="/">Portfolio</Link>
+          </li>
+          <li>
+          <a
+            href="https://resume.creddle.io/resume/7qnyd7lvsrj"
+            target="_blank"
+          >
+            Resume
+          </a>
+          </li>
+          <li>
+          <a
+            href="https://blog.ahmedbelhadj.com/"
+            target="_blank"
+          >
+            Blog
+          </a>
+        </li>
         </ul>
         <p className="sidebar__social">
           {data.allDatoCmsSocialProfile.edges.map(({ node: profile }) => (
